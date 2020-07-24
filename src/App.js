@@ -8,6 +8,7 @@ import './App.css';
 import Home from './components/home/home';
 import Catalog from './components/catalog/catalog';
 import Adding from './components/addElement/Adding';
+import Sauvetage from './components/catalog/sauvetage';
 
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path="/add">
             <Adding />
+          </Route>
+          <Route path="/catalog2">
+            <Sauvetage />
           </Route>
       </Switch>
     </Router>

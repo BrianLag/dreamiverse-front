@@ -25,13 +25,15 @@ function Catalog(){
   }
 
   return (
-    <div>
+    <div className="divpage">
       <h1> Barre de recherche</h1> 
     <div>
         <p>filtre par:</p>
         <button>type</button>
         <button>date</button>
-        <button onClick={catchInfo()}>lancer la recherche</button>
+        <div>
+          <button onClick={() => catchInfo()}>lancer la recherche</button>
+        </div>
       </div>
       <div>
         <Datalog data={database}/>

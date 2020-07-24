@@ -9,7 +9,8 @@ const Datalog = ({ data }) => {
         return (
           <div className="div-element">
             <img className="miniature" src={e.miniature} alt='miniature' />
-            <p>{e.name}</p>
+            <h2 className="elementName">{e.name}</h2>
+            <p>{e.type}</p>
           </div>
         )
       }

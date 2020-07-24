@@ -25,7 +25,7 @@ const Home = () => {
               <p>Rechercher</p>
             </Link>
           </div>
-          <div onClick={notify} className="button tuto">
+          <div onClick={notify} className="button tuto">  
             <p>Tutoriel</p>
           </div>
           <Link className="pLink" to="/add">
