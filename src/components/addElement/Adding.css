@@ -1,0 +1,49 @@
+.bg_register {
+  background-image: url('http://dreams.mediamolecule.com/assets/img/bg-dreams.png');
+  
+  height: 100vh;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.title{
+  margin-top: 0 ;
+  padding-top: 5vh;
+}
+.explication{
+  font-size: 1.8rem;
+  max-width: 80%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.form_container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 30vw;
+}
+
+.block_fieldset{
+  margin-top: 7rem;
+  max-width: 70%;
+}
+
+.block_form{
+  display: flex;
+  justify-content: center;
+}
+
+.inputtext{
+  margin-top: 5vh
+}
+
+.inputalign{
+  text-align: center;
+}
+
+.submitButton{
+  font-size: 1.6  rem;
+}

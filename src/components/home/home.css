@@ -1,0 +1,69 @@
+.logo{
+  color: #ffff;
+  height:15vh
+}
+
+p{
+  margin-top: 3vh;
+}
+.homepage{
+  background-image: url('https://media.playstation.com/is/image/SCEA/dreams-normalhero-01-ps4-06dec19-en-us?$native_nt$');
+background-repeat: no-repeat;
+  background-attachment: scroll;
+  color: white;
+  font-size: 1.5rem;
+  height: 100vh;
+}
+
+.field-flex{
+  display: flex;
+  margin-left: 15%;
+  width: 70%;
+}
+
+.field-intro{
+  background-color: rgb(149, 149, 149, 0.6);
+
+}
+
+.homeinfo{
+  z-index: 2;
+  opacity: 1;
+}
+.buttonMenu{
+  display: grid;
+  grid-template-rows: auto;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.search{
+  border: 5px solid rgb(199, 11, 11);
+}
+.add{
+  border: 5px solid rgb(97, 102, 163);
+}
+.fav{
+  border: 5px solid rgb(248, 144, 205);
+}
+.tuto{
+  border: 5px solid rgb(84, 194, 84);
+}
+
+.pLink{
+  text-decoration: none;
+  color: #ffff;
+}
+
+.button{
+  display: flex;
+  background-color: rgb(80, 80, 80);
+  justify-content: center;
+  margin-top: 3rem;
+  padding:3vh;
+  width:5vw;
+  height: 10vh;
+  border-radius:50% ;
+  
+}
